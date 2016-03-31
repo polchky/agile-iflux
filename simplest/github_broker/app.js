@@ -53,7 +53,7 @@ app.post('/esp', function(req, res) {
 
 // Testing purposes only, reception of actions from Iflux
 app.post('/actions', function(req, res) {
-	console.log(JSON.stringify(req.body));
+	console.log("Action received from Iflux: " + JSON.stringify(req.body));
 	res.sendStatus(204);
 });
 
