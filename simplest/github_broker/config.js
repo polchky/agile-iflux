@@ -12,7 +12,7 @@ config.schemas.baseURL = "http://86.119.29.77/iflux";
 config.schemas.actionTypePath = "/schemas/actionTypes/arduinoNotification";
 config.schemas.eventTypePath = "/schemas/eventTypes/arduinoCommit";
 
-config.githubProjectName = "agile-iflux-test";
+config.githubProjectName = "agile-iflux-simplest";
 
 config.githubApi = {};
 config.githubApi.username = "polchky";
